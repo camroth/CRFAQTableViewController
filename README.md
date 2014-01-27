@@ -1,9 +1,11 @@
 # CRFAQTableViewController
 
-[![Version](http://cocoapod-badges.herokuapp.com/v/CRFAQTableViewController/badge.png)](http://cocoadocs.org/docsets/CRFAQTableViewController)
-[![Platform](http://cocoapod-badges.herokuapp.com/p/CRFAQTableViewController/badge.png)](http://cocoadocs.org/docsets/CRFAQTableViewController)
-
 CRFAQTableViewController allows you to quickly and easily display a clickable interface to navigate question and answer style content. All lines automatically account for the required height to display a question or answer, and an indexed table of contents appears at the top for quick navigation.
+
+![Demo](https://raw.github.com/camroth/CRFAQTableViewController/master/demo.gif)
+
+![Table of contents](https://raw.github.com/camroth/CRFAQTableViewController/master/screenshot-1.png)
+![Item selected example](https://raw.github.com/camroth/CRFAQTableViewController/master/screenshot-2.png)
 
 ## Usage
 
