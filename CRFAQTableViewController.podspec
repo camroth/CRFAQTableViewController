@@ -1,4 +1,3 @@
-#
 # Be sure to run `pod spec lint NAME.podspec' to ensure this is a
 # valid spec and remove all comments before submitting the spec.
 Pod::Spec.new do |s|
@@ -6,16 +5,13 @@ Pod::Spec.new do |s|
   s.version      = "1.0.0"
   s.summary      = "CRFAQTableViewController allows you to quickly and easily display a clickable interface to navigate question and answer style content."
   s.description  = <<-DESC
-                    An optional longer description of CRFAQTableViewController
-
-                    * Markdown format.
-                    * Don't worry about the indent, we strip it!
+                   CRFAQTableViewController allows you to quickly and easily display a clickable interface to navigate question and answer style content. All lines automatically account for the required height to display a question or answer, and an indexed table of contents appears at the top for quick navigation.
                    DESC
   s.homepage     = "http://camroth.com"
   s.screenshots  = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license      = 'MIT'
   s.author       = { "Cameron Roth" => "camroth@gmail.com" }
-  s.source       = { :git => "http://github.com/camroth/CRFAQTableViewController.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/camroth/CRFAQTableViewController.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '7.0'
   s.ios.deployment_target = '7.0'

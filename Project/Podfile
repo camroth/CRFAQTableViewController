@@ -1,7 +1,3 @@
-pod "CRFAQViewController", :path => "../CRFAQViewController.podspec"
+platform: ios
 
-target "Demo" do
-end
-
-target "DemoTests" do
-end
+podspec :path => "../CRFAQTableViewController.podspec"
