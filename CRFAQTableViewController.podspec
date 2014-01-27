@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "CRFAQTableViewController"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "CRFAQTableViewController allows you to quickly and easily display a clickable interface to navigate question and answer style content."
   s.description  = <<-DESC
                    CRFAQTableViewController allows you to quickly and easily display a clickable interface to navigate question and answer style content. All lines automatically account for the required height to display a question or answer, and an indexed table of contents appears at the top for quick navigation.
