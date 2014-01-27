@@ -1,13 +1,10 @@
 # CRFAQTableViewController
 
+CRFAQTableViewController allows you to quickly and easily display a clickable interface to navigate question and answer style content. All lines automatically account for the required height to display a question or answer, and an indexed table of contents appears at the top for quick navigation.
+
 <p align="center">
   <img src="https://raw.github.com/camroth/CRFAQTableViewController/master/Resources/demo.gif" alt="CRFAQTableViewController demo"/>
 </p>
-
-CRFAQTableViewController allows you to quickly and easily display a clickable interface to navigate question and answer style content. All lines automatically account for the required height to display a question or answer, and an indexed table of contents appears at the top for quick navigation.
-
-![Table of contents](https://raw.github.com/camroth/CRFAQTableViewController/master/Resources/screenshot-1.png)
-![Item selected example](https://raw.github.com/camroth/CRFAQTableViewController/master/Resources/screenshot-2.png)
 
 ## Usage
 
@@ -58,3 +55,7 @@ If you're not using CocoaPods, you'll want to place both the h/m/xib somewhere i
 
 CRFAQTableViewController is available under the MIT license. See the LICENSE file for more info.
 
+## Screenshots
+
+![Table of contents](https://raw.github.com/camroth/CRFAQTableViewController/master/Resources/screenshot-1.png)
+![Item selected example](https://raw.github.com/camroth/CRFAQTableViewController/master/Resources/screenshot-2.png)
