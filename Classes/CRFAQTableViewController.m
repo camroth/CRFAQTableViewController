@@ -95,7 +95,7 @@ static NSString *kCellIdentifierForAnswer			= @"AnswerCell";
 
 - (int)numberOfQuestions
 {
-	return [self.questions count];
+	return (int)[self.questions count];
 }
 
 - (NSString *)questionTextForQuestion:(NSArray *)question
@@ -232,7 +232,7 @@ static NSString *kCellIdentifierForAnswer			= @"AnswerCell";
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
 	if (tableView == self.indexTableView) {
-		self.selectedRow = indexPath.row;
+		self.selectedRow = (int)indexPath.row;
 		NSIndexPath *indexPathForAnswer = [NSIndexPath indexPathForRow:0 inSection:self.selectedRow];
 		[self.answersTableView scrollToRowAtIndexPath:indexPathForAnswer atScrollPosition:UITableViewScrollPositionTop animated:YES];
 		[self.answersTableView reloadData];
