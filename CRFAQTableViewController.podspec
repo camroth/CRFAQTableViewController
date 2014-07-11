@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
                    CRFAQTableViewController allows you to quickly and easily display a clickable interface to navigate question and answer style content. All lines automatically account for the required height to display a question or answer, and an indexed table of contents appears at the top for quick navigation.
                    DESC
   s.homepage     = "http://camroth.com"
-  s.screenshots  = "https://github.com/camroth/CRFAQTableViewController/blob/master/Resources/screenshot-1.png", "https://github.com/camroth/CRFAQTableViewController/blob/master/Resources/screenshot-2.png"
+  s.screenshots  = "https://raw.githubusercontent.com/camroth/CRFAQTableViewController/master/Resources/screenshot-1.png", "https://raw.githubusercontent.com/camroth/CRFAQTableViewController/master/Resources/screenshot-2.png"
   s.license      = 'MIT'
   s.author       = { "Cameron Roth" => "camroth@gmail.com" }
   s.source       = { :git => "https://github.com/camroth/CRFAQTableViewController.git", :tag => s.version.to_s }
