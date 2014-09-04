@@ -76,6 +76,7 @@ static NSString *kCellIdentifierForAnswer			= @"AnswerCell";
 	}
 
 	self.answersTableView.tableHeaderView.frame = CGRectMake(CGRectGetMinX(self.indexTableView.frame), CGRectGetMinY(self.indexTableView.frame), CGRectGetWidth(self.indexTableView.frame), height);
+	self.answersTableView.tableHeaderView = self.answersTableView.tableHeaderView;
 	[self.answersTableView reloadData];
 }
 
